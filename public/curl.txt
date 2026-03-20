@@ -20,4 +20,4 @@
     Habr:      https://habr.com/ru/users/zarazaexe/
     Email:     zarazaex@tuta.io
 
-  GPG Key:     https://zarazaex.xyz/key
+  GPG Key:     https://zarazaex.xyz/key.txt
