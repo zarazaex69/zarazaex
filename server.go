@@ -38,7 +38,6 @@ type cachedFile struct {
 
 type server struct {
 	cache        map[string]*cachedFile
-	fallback     http.Handler
 	curlResponse []byte
 }
 
@@ -127,7 +126,7 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
 		w.Header().Set("Content-Length", strconv.Itoa(len(s.curlResponse)))
 		w.WriteHeader(http.StatusOK)
-		w.Write(s.curlResponse)
+		_, _ = w.Write(s.curlResponse)
 		return
 	}
 	entry, ok := s.cache[r.URL.Path]
@@ -141,12 +140,12 @@ func (s *server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Length", strconv.Itoa(len(entry.compressed)))
 		w.Header().Set("Vary", "Accept-Encoding")
 		w.WriteHeader(http.StatusOK)
-		w.Write(entry.compressed)
+		_, _ = w.Write(entry.compressed)
 		return
 	}
 	w.Header().Set("Content-Length", strconv.Itoa(len(entry.raw)))
 	w.WriteHeader(http.StatusOK)
-	w.Write(entry.raw)
+	_, _ = w.Write(entry.raw)
 }
 
 func main() {
@@ -166,7 +165,7 @@ func main() {
 		cache:        cache,
 		curlResponse: curlTxt,
 	}
-	log.Printf("zarazaex running on :8801", len(cache))
+	log.Printf("zarazaex running on :8801")
 	if err := http.ListenAndServe(":8801", s); err != nil {
 		log.Fatal(err)
 	}
