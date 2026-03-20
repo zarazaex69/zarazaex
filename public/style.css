@@ -157,6 +157,34 @@ details[open] summary {
     margin-bottom: 10px;
 }
 
+.gpg-details pre {
+    margin: 10px 0 0;
+    font-size: 0.75rem;
+    line-height: 1.4;
+}
+
+.gpg-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-row {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 1.5em);
+}
+
+.copy-link {
+    font-weight: normal;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
+
+.copy-link:hover {
+    opacity: 1;
+}
+
 img {
     display: block;
 }

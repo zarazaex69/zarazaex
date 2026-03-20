@@ -37,6 +37,24 @@ function setTheme(theme) {
   if (window.event) event.preventDefault();
 }
 
+function copyGPGKey() {
+  var e = window.event;
+  if (e) { e.preventDefault(); e.stopPropagation(); }
+  const keyText = document.getElementById('gpg-key').textContent;
+  navigator.clipboard.writeText(keyText).then(() => {
+    const btnEn = document.getElementById('copy-gpg');
+    const btnRu = document.getElementById('copy-gpg-ru');
+    const prevEn = btnEn.textContent;
+    const prevRu = btnRu.textContent;
+    btnEn.textContent = 'Copied!';
+    btnRu.textContent = 'Скопировано!';
+    setTimeout(() => {
+      btnEn.textContent = prevEn;
+      btnRu.textContent = prevRu;
+    }, 2000);
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("lang") || "en";
   const savedTheme = localStorage.getItem("theme") || "old";
