@@ -1,0 +1,23 @@
+
+  zarazaex - developer from Minsk
+
+  Clearnet:   https://zarazaex.xyz
+  I2P:        http://zarazaex.i2p
+  Yggdrasil:  http://[204:5a61:4ca1:626d:9b0e:f2d0:4207:57b6]:8801
+
+  Projects:
+    sedec (decompiler-c)                  https://github.com/zarazaex69/sedec
+    s (sway-dotfiles)                     https://github.com/zarazaex69/s
+    conv3n (workflow-engine)              https://github.com/zarazaex69/conv3n
+    e (ime-reverse)                       https://github.com/zarazaex69/e
+    zarazaex (this-site-source-code)      https://github.com/zarazaex69/zarazaex
+    ro (web-tools-on-ro.zarazaex.xyz)     https://github.com/zarazaex69/ro
+    l (program-pack-for-sway-dotfiles)    https://github.com/zarazaex69/l
+
+  Contacts:
+    Telegram:  @zarazaex / @zarazaexe
+    GitHub:    https://github.com/zarazaex69
+    Habr:      https://habr.com/ru/users/zarazaexe/
+    Email:     zarazaex@tuta.io
+
+  GPG Key:     https://zarazaex.xyz/key.txt
