@@ -11,7 +11,7 @@
 
 
 ## About
-zarazaexyz is my [site](https://zarazaex.xyz) source code 
+zarazaex is my [site](https://zarazaex.xyz) source code 
  
 <div align="center">
 
