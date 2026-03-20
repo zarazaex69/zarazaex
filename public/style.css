@@ -158,9 +158,15 @@ details[open] summary {
 }
 
 .gpg-details pre {
-    margin: 10px 0 0;
+    margin: 10px auto 0;
     font-size: 0.75rem;
     line-height: 1.4;
+    display: inline-block;
+    text-align: left;
+}
+
+.gpg-details {
+    text-align: center;
 }
 
 .gpg-details {
