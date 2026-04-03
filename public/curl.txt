@@ -11,11 +11,11 @@
     conv3n (workflow-engine)              https://github.com/zarazaex69/conv3n
     e (ime-reverse)                       https://github.com/zarazaex69/e
     zarazaex (this-site-source-code)      https://github.com/zarazaex69/zarazaex
-    ro (web-tools-on-ro.zarazaex.xyz)     https://github.com/zarazaex69/ro
     l (program-pack-for-sway-dotfiles)    https://github.com/zarazaex69/l
 
   Contacts:
-    Telegram:  @zarazaex / @zarazaexe
+    Telegram:  @zarazaex / @zarazaexe / @openlibrecommunity
+
     GitHub:    https://github.com/zarazaex69
     Habr:      https://habr.com/ru/users/zarazaexe/
     Email:     zarazaex@tuta.io
