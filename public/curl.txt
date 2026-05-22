@@ -1,23 +1,35 @@
 
   zarazaex - low level developer
 
-  Clearnet:   https://zarazaex.xyz
-  I2P:        http://zarazaex.i2p
-  Yggdrasil:  http://[204:5a61:4ca1:626d:9b0e:f2d0:4207:57b6]:8801
 
   Projects:
-    sedec (decompiler-c)                  https://github.com/zarazaex69/sedec
-    s (sway-dotfiles)                     https://github.com/zarazaex69/s
-    conv3n (workflow-engine)              https://github.com/zarazaex69/conv3n
-    e (ime-reverse)                       https://github.com/zarazaex69/e
-    zarazaex (this-site-source-code)      https://github.com/zarazaex69/zarazaex
-    l (program-pack-for-sway-dotfiles)    https://github.com/zarazaex69/l
+    olcrtc (bb22-via-legal-meet-services)    https://github.com/openlibrecommunity/olcrtc
+    twl (scientific-work-on-whitelists)      https://github.com/openlibrecommunity/twl
+    j (jitsi-meet-go-lib)                    https://github.com/zarazaex69/j
+    e (intel-me-reverse)                     https://github.com/zarazaex69/e
+    sedec (complex-decompiler)               https://github.com/zarazaex69/sedec
+    gr (fastest-go-qr-generator)             https://github.com/zarazaex69/gr
+    olclie (vpn-ip-spoofing-tool)            https://github.com/zarazaex69/olclie
+    s (sway-dotfiles)                        https://github.com/zarazaex69/s
+    l (program-pack-for-sway-dotfiles)       https://github.com/zarazaex69/l
+    zarazaex (this-site-source-code)         https://github.com/zarazaex69/zarazaex
+    t (template-for-new-projects)            https://github.com/zarazaex69/t
 
   Contacts:
-    Telegram:  @zarazaex / @zarazaexe / @openlibrecommunity
+    Telegram:  @zarazaex / @zarazaexe / @openlibrecommunity / @owenewans
 
     GitHub:    https://github.com/zarazaex69
     Habr:      https://habr.com/ru/users/zarazaexe/
     Email:     zarazaex@tuta.io
 
   GPG Key:     https://zarazaex.xyz/key.txt
+
+
+  About me:
+    Arch Linux & FreeBSD on PC, timezone UTC+3 (Mnk/Msk),
+    I use I2P & Yggdrasil, I write in Fortran/C/Zig/Rust/Go/Bun/Nim.
+    I don't work, I don't study.
+    I have a Telegram channel.
+    Usually I write small unserious things.
+    My favorite language is Go.
+    Not looking for communication.
